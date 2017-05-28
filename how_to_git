@@ -1,0 +1,45 @@
+# how_to_git
+Cheat sheet for basic git commands.
+
+Generate a key.
+	ssh-keygen -t rsa -b 4096 -C "you@email.com"
+	pay attention to location keys are saved
+	copy pub key from that dir
+
+Add key to settings > keys on github
+
+?optionally create new project/repo
+
+Configure git.
+	git config --global user.name "Your Name"
+	git config --global user.email "you@example.com"
+
+Check git config
+	git config --list
+
+cd to dir
+
+Initilize project
+	git init
+
+Add all files.
+  git add .
+
+Commit
+	git commit -m "Initial Commit" -a
+
+Add remote server(github)
+	git remote add origin git@git.domain.tld/repository.git
+
+Check if added/remote was good.
+  git remote -v
+
+First Push to remote server.
+  git push origin master
+
+You can also pull or merge
+	  git pull origin master
+
+COMMANDS:
+change remote server
+	git remote set-url origin new@remote.server/path
