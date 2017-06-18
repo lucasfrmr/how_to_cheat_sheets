@@ -33,6 +33,7 @@
 
 #Check if added/remote was good.
   git remote -v
+
 #optional
 #add 'node_modules/' to .gitignore file
   
