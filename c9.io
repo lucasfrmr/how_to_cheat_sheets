@@ -1,3 +1,5 @@
+#use post 8080 for node servers/apps
+
 #how to update node
   nvm install 6
 
