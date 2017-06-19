@@ -1,0 +1,20 @@
+#mongo shell
+  mongo
+
+#show all dbs
+  show dbs
+
+#create/use db
+  use nameOfDBHere
+
+#create collection
+  db.createCollection(nameOfCollection);
+
+#show all collections
+  show collections
+  
+#show all collection entries
+  db.collectionNameHere.find();
+  
+#remove single entry
+  db.collectionNameHere.remove({_id:ObjectId("IdOfEntryHere")});
