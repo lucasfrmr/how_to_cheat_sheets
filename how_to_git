@@ -47,6 +47,8 @@
 #You can also pull or merge
   git pull origin master
 
-#COMMANDS:
 #change remote server
 	git remote set-url origin new@remote.server/path
+
+#see all files that are ignored
+  git ls-files --others -i --exclude-standard
