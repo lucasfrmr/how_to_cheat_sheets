@@ -18,3 +18,7 @@
   
 #remove single entry
   db.collectionNameHere.remove({_id:ObjectId("IdOfEntryHere")});
+  
+#shutdown mongodb
+ use admin
+ db.shutdownServer({timeoutSecs: 60});
