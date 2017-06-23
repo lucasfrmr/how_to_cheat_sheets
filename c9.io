@@ -27,3 +27,7 @@
   Drivers
   You should use the host $IP instead of localhost as your driver connection URL. For example, in Node, it is:
     process.env.IP
+
+#shut down mongo before getting off c9.io
+  use admin
+  db.shutdownServer({timeoutSecs: 60});
