@@ -8,7 +8,10 @@
   use nameOfDBHere
 
 #create collection
-  db.createCollection(nameOfCollection);
+  db.createCollection('nameOfCollection');
+
+#delete a collection
+  db.nameOfCollectionToDelete.drop();
 
 #show all collections
   show collections
