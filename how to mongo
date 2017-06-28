@@ -25,3 +25,6 @@
 #shutdown mongodb
  use admin
  db.shutdownServer({timeoutSecs: 60});
+
+# fix unclean shutdown
+  mongod --repair
