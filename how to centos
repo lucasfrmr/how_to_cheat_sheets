@@ -1,0 +1,3 @@
+#find and kill server
+  netstat -nlp | grep :8080
+  kill PID_number
