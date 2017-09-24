@@ -6,6 +6,11 @@
 
 #create/use db
   use nameOfDBHere
+   db.dropDatabase();
+  
+#delete db
+  use nameOfDBHere
+  db.drop
 
 #create collection
   db.createCollection('nameOfCollection');
