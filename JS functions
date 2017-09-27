@@ -1,0 +1,10 @@
+
+# ajax/jquery live update/load
+
+
+    function ajaxCall() {
+      $.ajax({url: "https://jamestgh.xyz", success: function(result) {
+        document.getElementById("data").innerHTML = result;
+      }});
+    }
+    setInterval(ajaxCall, 1000);
